@@ -1,0 +1,74 @@
+
+	Management:
+		
+		Users{
+			id_user, 
+			name, 
+			email, 
+			password, 
+			id_profile, 
+			status
+		}, 
+
+		Profiles{
+			id_profile, 
+			profile, 
+			status
+		},
+		
+		Access{
+			id_access, 
+			access, 
+			status 
+		}, 
+		
+		Refs{
+			id_reference, 
+			reference, 
+			status
+		}, 
+
+		ProfileAccess{
+			id_profile,
+			id_access 
+		},
+		
+		AccessReferences{
+			id_access, 
+			id_reference
+		}, 
+
+		Products{
+			id_product, 
+			name, 
+			ean,
+			create_date, 
+			create_id_user
+		}, 
+
+		Usuarios{
+			id_usuario, 
+			nome, 
+			email, 
+			senha, 
+			situacao,
+			id_perfil, 
+			id_usuario_insercao
+		}, 
+
+		Perfis{
+			id_perfil, 
+			perfil, 
+			situacao,
+			data_insercao, 
+			id_usuario_insercao
+		},
+
+		Menus{
+			id_menu, 
+			menu,
+			link, 
+			situacao, 
+			data_insercao, 
+			id_usuario_insercao
+		}

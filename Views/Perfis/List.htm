@@ -1,0 +1,20 @@
+<table>
+	<thead>
+		<tr>
+			<th>Cod.</th>
+			<th>Nome</th>
+			<th>Situação</th>
+			<th>Editar</th>
+			<th>Excluir</th>
+		</tr>
+	</thead>
+	<tbody id="perfis">
+		<tr>
+			<td>{perfis.id_perfil}</td>
+			<td>{perfis.perfil}</td>
+			<td>{perfis.situacao}</td>
+			<td><a href="http://localhost:51001/index/perfis/read/{perfis.id_perfil}">Editar</a></td>
+			<td><a href="http://localhost:51001/index/perfis/delete/{perfis.id_perfil}">Excluir</a></td>
+		</tr>
+	</tbody>
+</table>

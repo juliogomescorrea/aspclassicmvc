@@ -1,0 +1,6 @@
+<%
+
+	Class clsIndexModel
+	End Class
+
+%>

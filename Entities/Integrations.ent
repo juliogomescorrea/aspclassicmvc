@@ -1,0 +1,18 @@
+
+	Integrations:
+
+		Integrations{
+			idIntegration, 
+			name, 
+			status, 
+			createDate, 
+			createIdUser
+		}, 
+
+		IntegrationsLogs{
+			idIntegrationLog, 
+			result,
+			message,
+			status,
+			createDate
+		}

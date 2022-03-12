@@ -1,0 +1,21 @@
+
+	Planning:
+
+		Processes{
+			id_process, 
+			name,
+			start_date, 
+			end_date
+		}, 
+
+		Sales{
+			id_sale,
+			id_product, 
+			id_hierarchy, 
+			quantity, 
+			date
+		}, 
+
+		Apportionments{
+			id_apportionment
+		}
